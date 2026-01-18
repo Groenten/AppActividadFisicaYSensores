@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5E427"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="94dp"
+>
+
+    <!-- ICONO -->
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Icono actividad" />
+
+    <!-- NOMBRE ACTIVIDAD -->
+    <TextView
+        android:id="@+id/tvActividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Caminar"
+        android:textColor="#F5278B"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- TIEMPO RESTANTE -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="05:00"
+        android:textSize="26sp"
+        android:textColor="#F5278B"
+        android:textStyle="bold" />
+
+    <!-- ESTADO MOVIMIENTO -->
+    <TextView
+        android:id="@+id/tvMovimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Sin movimiento"
+        android:textSize="18sp" />
+
+    <!-- DISTANCIA -->
+    <TextView
+        android:id="@+id/tvDistancia"
+        android:textColor="#F5278B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Distancia: 0.00 km"
+        android:textSize="18sp" />
+
+    <!-- BOTÓN FINALIZAR -->
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:textColor="#F5278B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar sesión" />
+
+</LinearLayout>

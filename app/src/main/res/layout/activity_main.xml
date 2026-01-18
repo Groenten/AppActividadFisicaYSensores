@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5E427"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actívate-te"
+        android:textColor="#F5278B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="8sp"
+        />
+
+    <Spinner
+        android:id="@+id/spTipoActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:ems="10"
+
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/etMinutosActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Ingresa la duración en minutos..."
+        android:padding="12dp"
+        />
+
+    <Button
+        android:id="@+id/btnAnadirActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir actividad" />
+</LinearLayout>

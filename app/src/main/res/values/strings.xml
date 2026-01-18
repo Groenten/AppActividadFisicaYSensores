@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppActividadFisicaYSensores</string>
+
+amina
+<string-array name="tipos_actividad">
+<item>Caminar</item>
+<item>Correr</item>
+<item>Yoga</item>
+<item>Gimnasio</item>
+<item>Bicicleta</item>
+<item>Natación</item>
+</string-array>
+</resources>
